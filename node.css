@@ -1,0 +1,64 @@
+.topContainer {
+  border-width: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.bottomContainer {
+  border-bottom-style: solid;
+  border-bottom-width: 5px;
+  border-left-style: solid;
+  border-left-width: 5px;
+  border-right-style: solid;
+  border-right-width: 5px;
+  border-color: black;
+}
+
+.Rows {
+  border: 2px solid red;
+}
+
+.Coll {
+  font-family: "Martel";
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  height: 32px;
+}
+
+.Coll1 {
+  font-family: "Martel";
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  height: 32px;
+  color: white;
+}
+
+.Error {
+  font-family: "Martel";
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  height: 32px;
+  background-color: #ff6666;
+}
+
+.Error1 {
+  font-family: "Martel";
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+  height: 32px;
+  color: white;
+}
+
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("photographer.jpg");
+  min-height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
